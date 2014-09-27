@@ -1,5 +1,6 @@
 # filename: broken_image_2.rb
 # http://elementalselenium.com/tips/67-broken-images
+# The below script did not work on windows xp machine, it worked fine on mac though
 
 require 'selenium-webdriver'
 require 'rspec/expectations'

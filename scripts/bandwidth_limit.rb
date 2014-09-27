@@ -1,5 +1,6 @@
 # filename: bandwidth_limit.rb
 # http://elementalselenium.com/tips/64-limit-bandwidth
+# The below script did not work on windows xp machine, it worked fine on mac though
 
 require 'browsermob/proxy'
 require 'selenium-webdriver'
