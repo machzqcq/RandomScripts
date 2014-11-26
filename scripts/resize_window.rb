@@ -10,5 +10,5 @@ driver = Selenium::WebDriver.for browser.to_sym
     driver.close
     driver.switch_to.window driver.window_handles.first
   end
-  driver.execute_script("window.innerWidth = 1024; window.innerHeight = 768;")
+  driver.execute_script("window.resizeTo(300,768)")
   @browser = Watir::Browser.new driver
